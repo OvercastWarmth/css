@@ -1,0 +1,25 @@
+/* Catppuccin <3 */
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css");
+
+/* Fix for Catppuccin's threads standing out too much for us */
+ul[aria-label$=" threads"] > li:nth-child(n) {
+    --channels-default: inherit;
+    --interactive-hover: inherit;
+    --interactive-active: inherit;
+}
+
+/* Remove OP tag on threads */
+span[aria-label="Original Poster"] {
+    display: none;
+}
+
+/* Hide certain channels, threads, ect. */
+/* .container-2qVG6q.mainCard-3KBsBI[data-item-id="1060197843165519892"] {
+    display: none;
+} */
+li.containerDefault-YUSmu3[data-dnd-name="discord-meta"] {
+    display: none;
+}
+li.containerDefault-YUSmu3[data-dnd-name="topical-threads"] {
+    display: none;
+}
