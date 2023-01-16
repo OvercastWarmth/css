@@ -1,5 +1,5 @@
-/* Catppuccin <3 */
-@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css");
+/* Import the themes (separated for organisation) */
+@import url("discord-themes.css");
 
 /* Fix for Catppuccin's threads standing out too much for us */
 ul[aria-label$=" threads"] > li:nth-child(n) {
@@ -34,3 +34,4 @@ li.containerDefault-YUSmu3[data-dnd-name="topical-threads"] {
 {
     display: none !important;
 }
+
