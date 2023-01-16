@@ -5,6 +5,10 @@
 /* Modern Indicators theme */
 @import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
 
+
+/* Bubble bar */
+@import url('https://discord-extensions.github.io/bubble-bar/src/source.css');
+
 /* || Accent Colors
  * Accent colors use HSL to remain compatible with Discord's built in saturation accessibility feature.
  * To the bigbrains out there, I know this is unnecessary. This is just how I prefer to do things.
